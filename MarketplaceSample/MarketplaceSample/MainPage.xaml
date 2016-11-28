@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="MarketplaceSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MarketplaceSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        
+        <StackPanel Orientation="Vertical" Padding="40">
+            <Button Click="Button_Click_PDP" Content="Product Detail Page" Width="300" Margin="0,0,0,40"></Button>
+            <Button Click="Button_Click_WriteReview" Content="Write a Review" Width="300" Margin="0,0,0,40"></Button>
+            <Button Click="Button_Click_PublisherProducts" Content="Publisher's Products" Width="300"></Button>
+        </StackPanel>
+
+    </Grid>
+</Page>
